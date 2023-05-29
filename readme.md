@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-5. Launch the app. Select a shooting mode (Panorama, Automotive or Indoor) and follow the instructions.
+5. Launch the app. Select a shooting mode (Indoor, Cars and Vehicles or Panorama) and follow the instructions.
 6. When the capture is complete, the ID of the new model will be set to the lastCreatedModelID property.
 7. Select 'View model' mode.
 
