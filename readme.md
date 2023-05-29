@@ -11,15 +11,16 @@ Instruction:
 3. Set up your Development Team in the "Signing and Capabilities" tab.
 4. To initialize the SDK, set your Mertsy SDK Access Token to token property.
 
-class AppDelegate: UIResponder, UIApplicationDelegate {
+```swift
 
-    class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
     
-        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-          MertsySDK.shared.token = "YOUR TOKEN HERE"
-          return true
-        }
-     }
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        MertsySDK.shared.token = "YOUR TOKEN HERE"
+        return true
+    }
+}
+```
 
 5. Launch the app. Select a shooting mode (Panorama, Automotive or Indoor) and follow the instructions.
 6. When the capture is complete, the ID of the new model will be set to the lastCreatedModelID property.
