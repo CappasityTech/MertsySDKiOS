@@ -50,7 +50,7 @@ final class ViewController: UIViewController {
                 }
                 capturingManager.present(on: self, capturingParameters: parameters)
             } else {
-                showAlert(message: "Not enought memory on device")
+                showAlert(message: "Not enough memory on device")
             }
         }
     }

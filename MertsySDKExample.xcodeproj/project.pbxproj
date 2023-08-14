@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		13E6ED9290E68507672D23DB /* MertsySDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MertsySDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E6ED9290E68507672D23DB /* MertsySDKExample.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MertsySDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BB924155D7833050267DF0 /* Mertsy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Mertsy.xcframework; path = PLACE_XC_FRAMEWORK_HERE/Mertsy.xcframework; sourceTree = "<group>"; };
 		526F951A164891F1EB117664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C01A7C8D87E2350BF7420C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,6 +120,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 0EDB77F74D9D278AA454564F /* Build configuration list for PBXProject "MertsySDKExample" */;
 			compatibilityVersion = "Xcode 11.0";
@@ -192,12 +194,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				CUSTOM_CONFIGURATION = "$(CONFIGURATION)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(PROJECT_DIR)/PLACE_XC_FRAMEWORK_HERE\"",
+					"$(inherited) \"$(PROJECT_DIR)/PLACE_XC_FRAMEWORK_HERE\"",
 					"\"PLACE_XC_FRAMEWORK_HERE\"",
 				);
 				INFOPLIST_FILE = MertsySDKExample/Info.plist;
@@ -283,12 +283,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				CUSTOM_CONFIGURATION = "$(CONFIGURATION)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(PROJECT_DIR)/PLACE_XC_FRAMEWORK_HERE\"",
+					"$(inherited) \"$(PROJECT_DIR)/PLACE_XC_FRAMEWORK_HERE\"",
 					"\"PLACE_XC_FRAMEWORK_HERE\"",
 				);
 				INFOPLIST_FILE = MertsySDKExample/Info.plist;
